@@ -1,0 +1,41 @@
+.header-container {
+  width: 100%;
+background-color: #e9e9e9;  
+  overflow: hidden;
+  padding: 12px 0;
+  font-size: 1rem;
+  position: relative;
+}
+
+.scrolling-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-loop 30s linear infinite;
+}
+
+.header-container:hover .scrolling-track {
+  animation-play-state: paused;
+}
+
+.scrolling-text {
+  display: flex;
+  white-space: nowrap;
+}
+
+.scrolling-text span {
+  display: inline-block;
+  padding-right: 60px;
+}
+.scrolling-text i{
+  padding-right: 10px;
+  font-size: 1.3rem;
+}
+
+@keyframes scroll-loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

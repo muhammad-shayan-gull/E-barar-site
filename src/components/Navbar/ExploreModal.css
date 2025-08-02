@@ -1,0 +1,50 @@
+.custom-explore-modal .modal-dialog {
+  max-width: 1200px;
+}
+
+.modal-navbar-container {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+ 
+}
+
+.modal-content-section {
+  padding: 20px;
+}
+
+.sidebar {
+  border-right: 1px solid #ddd;
+  padding-right: 20px;
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  padding: 10px 5px;
+  color: #333;
+  cursor: pointer;
+}
+
+.sidebar .nav-link:hover {
+    background-color:#f4f4f4;
+  border-radius: 5px;
+}
+
+.content-area {
+  padding-left: 20px;
+}
+
+.content-list {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.content-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+
+nav.px-5.navbar.navbar-expand-lg.navbar-light.bg-light {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
