@@ -81,7 +81,7 @@ const ResponsiveNavbar = () => {
               <Button variant="none" className="px-">Login</Button>
               <Button variant="none" className="mx-1">Sign up</Button>
             </Form>
-            <Button variant="outline-dark">Join Directory</Button>
+            <Button variant="btn-dark">Join Directory</Button>
           </Navbar.Collapse>
         </Container>
       </Navbar>
